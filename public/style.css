@@ -1,0 +1,28 @@
+.navbar {
+	box-shadow: 0px 0px 2px #ccc;
+}
+.btn.btn-primary.btn-sm.pull-right {
+    float: right;
+}
+.card-title {
+	float: left;
+}
+.card {
+	border: none !important;
+	
+}
+.card-header {
+    padding: .50rem 1.25rem !important;
+}
+.table-bordered td, .table-bordered th {
+    padding: 5px 10px !important;
+}
+th {
+    font-weight: 500;
+}
+thead {
+    background: #f5f5f5;
+}
+.table-bordered thead td, .table-bordered thead th {
+	border-bottom-width: 1px !important;
+}
