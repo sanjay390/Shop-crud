@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import toastr from "cogo-toast";
 import Create from "./Create";
-import Edit from "./Edit";
 
 class Index extends Component {
   constructor() {
@@ -136,7 +135,7 @@ class Index extends Component {
           </div>
         </div>
         <Create updateState={this.handleUpdateState} />
-        <Edit updateState={this.handleUpdateState} user={this.state.editUser} />
+        
       </div>
     );
   }
